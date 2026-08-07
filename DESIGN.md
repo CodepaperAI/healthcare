@@ -9,7 +9,7 @@
 **Tagline:** Better Care. Better Health. Better Tomorrow.
 
 **Positioning:** the differentiator is not equipment or price, it is
-*coordination*. Six disciplines share one roof and one set of notes about each
+*coordination*. Seven disciplines share one roof and one set of notes about each
 patient. Everything in the design should feel like one connected clinic rather
 than a directory of separate practices.
 
@@ -312,7 +312,7 @@ in the layout so it never covers content.
 Two columns at `lg`, stacked below. Left: pulse dot + eyebrow, fluid `h1` with a
 gradient phrase, intro paragraph, two CTAs, three assurance ticks, rating row.
 Right: portrait photograph in `rounded-hero` with an offset outline frame behind
-it and two floating cards — the six-discipline card (bottom left, overlapping the
+it and two floating cards — the seven-discipline card (bottom left, overlapping the
 frame) and a direct-billing pill (top right).
 
 Background: `mesh-glow` radial washes over a faint `grid-lines` pattern, masked
@@ -336,15 +336,15 @@ content
 ```
 
 `SectionHeading` renders the first three. **Sequence numbers are only used where
-the content is genuinely a sequence** — the six services are a numbered set the
-clinic refers to by number ("Service 03 of 06"), and the homepage bands are a
+the content is genuinely a sequence** — the seven services are a numbered set the
+clinic refers to by number ("Service 03 of 07"), and the homepage bands are a
 numbered tour. Do not number a group just for decoration.
 
 Page-level section order on the homepage:
 
 1. Hero
 2. Trust band — four clinic figures on a connector line (`brand-800`)
-3. Services — six cards
+3. Services — seven cards
 4. How we work — image + three principles
 5. Products spotlight
 6. Team preview — four practitioners
@@ -416,7 +416,7 @@ Local inline SVG set in `components/ui/Icon.jsx`. No icon package.
 - Purely decorative icons are `aria-hidden`; pass `title` only when the icon
   carries meaning on its own.
 
-Each of the six services has a purpose-drawn glyph (a spine for chiropractic,
+Each service has a purpose-drawn glyph (a spine for chiropractic,
 radiating arcs for shockwave, needle and points for acupuncture) rather than a
 generic medical symbol.
 

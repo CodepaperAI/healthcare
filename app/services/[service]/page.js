@@ -19,7 +19,7 @@ import { pad } from '@/lib/utils';
 /**
  * PROGRAMMATIC SERVICE PAGE
  *
- * One template renders all six services from data/services.js. Adding a service
+ * One template renders all services from data/services.js. Adding a service
  * to that array produces a new statically generated page with metadata,
  * breadcrumbs, FAQ schema, menu entries and a sitemap record — no new code.
  */

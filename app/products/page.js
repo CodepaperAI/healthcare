@@ -18,9 +18,9 @@ const trail = [
 ];
 
 export const metadata = buildMetadata({
-  title: 'Compression Stockings, Braces & Recovery Products in London, Ontario',
+  title: 'Medical Compression Stockings, Custom Orthopedic Bracing & Recovery Products',
   description:
-    'Compression stockings (Sigvaris), custom orthopedic braces, TENS units, Theragun and Biofreeze — assessed and fitted in clinic at Sherwood Forest Mall, North London, Ontario. Direct billing.',
+    'Medical compression stockings, custom orthotics, custom orthopedic bracing, TENS units, therapeutic massage guns and Biofreeze in North London, Ontario. Direct billing available.',
   path: '/products',
   keywords: [
     'compression stockings London Ontario',
@@ -35,8 +35,8 @@ export default function ProductsPage() {
     <>
       <PageHero
         eyebrow="Products & professional fitting · North London"
-        title="Compression, Bracing & Recovery Products in London, Ontario"
-        intro="Most clinics send you elsewhere to buy a brace or compression stockings. At Planet Health Care we assess, measure and fit them right here at Sherwood Forest Mall — plus TENS units, Theragun and Biofreeze for recovery at home. Covered by most extended health plans with a prescription, billed directly."
+        title="Medical compression stockings, custom orthopedic bracing & recovery products"
+        intro="At Planet Health Care we assess, measure and fit medical compression stockings, custom orthotics and custom orthopedic braces right here at Sherwood Forest Mall - plus TENS units, therapeutic massage guns and Biofreeze for recovery at home. Direct billing is available for many extended health plans."
         trail={trail}
         bookLabel="Book a fitting"
       />
@@ -79,14 +79,28 @@ export default function ProductsPage() {
                   </div>
 
                   <Reveal variant={flipped ? 'right' : 'left'} className={flipped ? 'lg:order-1' : ''}>
-                    <Figure
-                      src={product.image}
-                      alt={product.imageAlt}
-                      width={1000}
-                      height={800}
-                      sizes="(max-width: 1024px) 100vw, 48vw"
-                      className="aspect-[4/3]"
-                    />
+                    <>
+                      <Figure
+                        src={product.image}
+                        alt={product.imageAlt}
+                        width={1000}
+                        height={800}
+                        sizes="(max-width: 1024px) 100vw, 48vw"
+                        className="aspect-[4/3]"
+                      />
+                      {product.imageCredit && (
+                        <p className="mt-2 text-[0.72rem] leading-relaxed text-muted">
+                          <a
+                            href={product.imageCredit.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline decoration-line underline-offset-4 transition-colors hover:text-brand-600"
+                          >
+                            {product.imageCredit.label}
+                          </a>
+                        </p>
+                      )}
+                    </>
                   </Reveal>
                 </article>
               );
@@ -106,7 +120,7 @@ export default function ProductsPage() {
       <Schema
         data={[
           webPageSchema({
-            title: 'Compression Stockings, Braces & Recovery Products',
+            title: 'Medical Compression Stockings, Custom Orthopedic Bracing & Recovery Products',
             description: metadata.description,
             path: '/products',
           }),

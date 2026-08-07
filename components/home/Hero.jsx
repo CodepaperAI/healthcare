@@ -58,7 +58,7 @@ export default function Hero() {
               className="mt-5 text-display-lg font-extrabold text-strong"
               {...itemProps}
             >
-              Physiotherapy, chiropractic &amp; custom orthotics in{' '}
+              Physiotherapy, registered massage, pelvic floor physio &amp; custom orthotics in{' '}
               <span className="text-gradient-brand">North London</span>
             </motion.h1>
 
@@ -66,9 +66,10 @@ export default function Hero() {
               className="mt-6 max-w-xl text-[1.04rem] leading-relaxed text-muted sm:text-[1.1rem]"
               {...itemProps}
             >
-              One team of ten practitioners — physiotherapists, chiropractors, a registered massage
-              therapist, a psychologist and certified fitters — under one roof at Sherwood Forest
-              Mall. Real recovery, coordinated by people who talk to each other about your care.
+              One team of ten practitioners - physiotherapists, pelvic floor physiotherapy,
+              chiropractors, a registered massage therapist, a psychologist and certified fitters -
+              under one roof at Sherwood Forest Mall. Real recovery, coordinated by people who talk
+              to each other about your care.
             </motion.p>
 
             <motion.div className="mt-8 flex flex-wrap items-center gap-3" {...itemProps}>
@@ -162,15 +163,15 @@ export default function Hero() {
                 </span>
                 <div className="min-w-0">
                   <p className="font-display text-[1.35rem] font-extrabold leading-none text-strong">
-                    Six
+                    Seven
                     <span className="ml-1 text-[0.8rem] font-bold text-muted">disciplines</span>
                   </p>
                   <p className="mt-1 truncate text-[0.76rem] text-muted">One shared treatment plan</p>
                 </div>
               </div>
               <div className="connector mt-3.5 h-px w-full" />
-              <div className="mt-3 flex items-center gap-1.5">
-                {['physiotherapy', 'chiropractic', 'massage', 'psychology', 'shockwave', 'acupuncture'].map(
+              <div className="mt-3 flex flex-wrap items-center gap-1.5">
+                {['physiotherapy', 'chiropractic', 'massage', 'psychology', 'shockwave', 'acupuncture', 'pelvicFloor'].map(
                   (name) => (
                     <span
                       key={name}

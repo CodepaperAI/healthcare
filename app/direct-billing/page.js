@@ -6,7 +6,7 @@ import Schema from '@/components/ui/Schema';
 import PageHero from '@/components/sections/PageHero';
 import FaqSection from '@/components/sections/FaqSection';
 import AppointmentCTA from '@/components/sections/AppointmentCTA';
-import { insurers, billingSteps, billingFaqs } from '@/data/insurers';
+import { insurers, billingSteps, coverageNotes, billingFaqs } from '@/data/insurers';
 import { buildMetadata } from '@/lib/seo';
 import { breadcrumbSchema, faqSchema, webPageSchema } from '@/lib/schema';
 
@@ -18,7 +18,7 @@ const trail = [
 export const metadata = buildMetadata({
   title: 'Direct Billing to Insurance in London, Ontario',
   description:
-    'Direct billing to all major extended health insurers for physiotherapy, chiropractic, massage and more at Planet Health Care, North London, Ontario. No forms, no waiting.',
+    'Direct billing to major extended health insurers for physiotherapy, pelvic floor physiotherapy, chiropractic, massage, orthotics, braces and compression in North London.',
   path: '/direct-billing',
   keywords: [
     'direct billing physiotherapy London Ontario',
@@ -33,7 +33,7 @@ export default function DirectBillingPage() {
       <PageHero
         eyebrow="Extended health & direct billing"
         title="Direct Billing to Insurance in London, Ontario"
-        intro="Skip the forms and the wait for reimbursement. Planet Health Care offers direct billing to all major extended health insurers for physiotherapy, chiropractic, massage, psychology and more — so most patients pay little or nothing at the visit. We verify your coverage before you’re treated and submit the claim for you."
+        intro="Planet Health Care offers direct billing to many extended health insurers for physiotherapy, pelvic floor physiotherapy, chiropractic, massage, psychology, orthotics, braces and compression stockings. Bring your plan details and we will submit eligible claims directly where your insurer allows."
         trail={trail}
         bookLabel="Book an Appointment"
       />
@@ -41,7 +41,7 @@ export default function DirectBillingPage() {
       {/* Three steps */}
       <section className="bg-canvas py-section">
         <Container>
-          <SectionHeading eyebrow="How it works" title="Three steps, no paperwork for you" />
+          <SectionHeading eyebrow="How it works" title="Three steps to direct billing" />
 
           <Reveal stagger={0.09} className="relative mt-12 grid gap-5 lg:grid-cols-3">
             {billingSteps.map((step, index) => (
@@ -62,8 +62,36 @@ export default function DirectBillingPage() {
         </Container>
       </section>
 
-      {/* Insurers */}
+      {/* Coverage basics */}
       <section className="bg-surface py-section">
+        <Container>
+          <SectionHeading
+            eyebrow="Coverage basics"
+            title="What to know before your visit"
+            description="We make direct billing convenient, but your insurance plan sets the exact limits, deductibles and referral rules."
+          />
+
+          <Reveal stagger={0.05} className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {coverageNotes.map((note) => (
+              <RevealItem
+                key={note.title}
+                className="flex h-full gap-4 rounded-card border border-line bg-elevated p-6 shadow-card"
+              >
+                <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-brand-600/10 text-brand-600">
+                  <Icon name="check" className="h-4 w-4" />
+                </span>
+                <span>
+                  <h3 className="font-display text-[0.98rem] font-bold text-strong">{note.title}</h3>
+                  <p className="mt-2 text-[0.9rem] leading-relaxed text-muted">{note.body}</p>
+                </span>
+              </RevealItem>
+            ))}
+          </Reveal>
+        </Container>
+      </section>
+
+      {/* Insurers */}
+      <section className="bg-canvas py-section">
         <Container>
           <SectionHeading
             eyebrow="Insurers we bill directly"
@@ -91,7 +119,7 @@ export default function DirectBillingPage() {
 
       <AppointmentCTA
         title="Use your benefits today"
-        body="Bring your plan details and we’ll handle the rest. Book online or call the clinic — same-day appointments are often available."
+        body="Bring your insurance details and any plan limits your insurer has shared. We will direct bill where your plan allows and help with the documentation you need."
         withForm={false}
       />
 

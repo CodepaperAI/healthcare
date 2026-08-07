@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
           <Reveal variant="right" className="relative order-2 lg:order-1">
             <Figure
               src="/images/clinic-treatment-room.jpg"
-              alt="A physiotherapist and chiropractor reviewing a patient treatment plan together at Planet Health Care"
+              alt="Hiral Desai providing manual physiotherapy treatment in a Planet Health Care treatment room"
               width={1100}
               height={1200}
               sizes="(max-width: 1024px) 100vw, 46vw"
@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
                 Sherwood Forest Mall
               </p>
               <p className="mt-2 text-[0.9rem] font-semibold leading-snug text-white">
-                Six disciplines sharing one set of notes about your care.
+                Seven disciplines sharing one set of notes about your care.
               </p>
             </div>
           </Reveal>
@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
             </h2>
             <p className="mt-5 max-w-prose text-[1.02rem] leading-relaxed text-muted">
               Planet Health Care has been at Sherwood Forest Mall since 2020. We focus on restoring
-              how you move — and because every discipline shares one roof, your practitioners share
+              how you move - and because every discipline shares one roof, your practitioners share
               one plan.
             </p>
 

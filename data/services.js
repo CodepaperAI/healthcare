@@ -19,30 +19,38 @@ export const services = [
     bookLabel: 'Book physiotherapy',
     image: '/images/service-physiotherapy.jpg',
     imageAlt:
-      'Practitioner mobilising a patient’s foot and ankle in a treatment room at Planet Health Care',
+      'Hiral Desai assessing a patient foot and ankle in a treatment room at Planet Health Care',
 
     menuNote: 'One-on-one assessment and hands-on rehab',
     summary:
       'One-on-one assessment and hands-on rehab for injury, post-surgical recovery and chronic pain.',
     headline: 'Physiotherapy in London, Ontario',
     intro:
-      'Registered physiotherapy led by a clinician with more than 18 years of experience — a real assessment, a written plan, and hands-on treatment that starts on day one.',
+      'Registered physiotherapy led by a clinician with more than 18 years of experience - a real assessment, a written plan, hands-on treatment and a customized home exercise program.',
 
     about: {
       heading: 'About physiotherapy at Planet Health Care',
       body: [
-        'At Planet Health Care, physiotherapy in London, Ontario means one-on-one care — never a room full of patients handed to an assistant. Your first visit is a full assessment: your history, movement testing and a clear diagnosis explained in plain language. From there we build a written plan combining manual therapy, targeted exercise and modalities such as shockwave, IFC, TENS and therapeutic ultrasound.',
-        'Because our physiotherapists work alongside chiropractors, a massage therapist and certified fitters under one roof at Sherwood Forest Mall, your plan is coordinated rather than contradicted. Whether you are recovering from surgery, rehabbing a sports injury, managing arthritis or working through a motor vehicle accident claim, the goal is the same: restore how you move and get you back to the things you were doing before.',
+        'At Planet Health Care, physiotherapy in London, Ontario means one-on-one care - never a room full of patients handed to an assistant. Your first visit is a full assessment: your history, movement testing and a clear diagnosis explained in plain language. From there we build a written plan combining manual therapy, exercise, education and modalities such as shockwave, EMS/TENS, therapeutic ultrasound, heat and cold.',
+        'Because our physiotherapists work alongside chiropractors, a registered massage therapist, a pelvic floor physiotherapy service and certified fitters under one roof at Sherwood Forest Mall, your plan is coordinated rather than contradicted. Whether you are recovering from surgery, rehabbing a sports injury, managing arthritis, improving posture or working through a motor vehicle accident claim, the goal is the same: restore how you move and help you return to daily life with confidence.',
+        'Postural restoration programs are customized when posture, breathing mechanics or movement asymmetry are part of the problem. A plan may include breathing education, mobility work, stretching, core strengthening, ergonomic coaching, pain-management modalities, progress monitoring and, when clinically appropriate, custom orthotics or bracing. Home exercise programs can be sent by email so you can keep building progress between visits.',
       ],
     },
 
     conditions: [
       'Back and neck pain',
+      'Whiplash and MVA injuries',
       'Post-surgical rehabilitation',
-      'Sports injuries and sprains',
-      'Arthritis and chronic pain',
-      'Motor vehicle accident injuries',
-      "Women's health & pelvic floor",
+      'Sports and workplace injuries',
+      'Posture-related pain',
+      'Arthritis and foot issues',
+      'Lower back pain and sciatica',
+      'Repetitive strain injuries',
+      'Postural restoration programs',
+      'Active and passive rehab',
+      'Manual therapy',
+      'EMS/TENS and ultrasound therapy',
+      'Pelvic floor concerns',
     ],
 
     firstVisit: [
@@ -52,7 +60,7 @@ export const services = [
       },
       {
         title: 'Your plan',
-        body: 'A written treatment plan with an expected timeline and home exercises you can actually follow.',
+        body: 'A written treatment plan with an expected timeline and individualized home exercises we can send by email.',
       },
       {
         title: 'Treatment',
@@ -63,7 +71,7 @@ export const services = [
     practitioner: {
       who: 'Hiral Desai, Registered Physiotherapist, supported by two physiotherapy assistants.',
       coverage:
-        'Physiotherapy is covered by most extended health plans and motor vehicle accident (MVA) claims. We bill your insurer directly wherever possible, so most patients pay nothing out of pocket.',
+        'Physiotherapy is covered by many extended health plans and motor vehicle accident (MVA) claims. We bill your insurer directly wherever possible.',
     },
 
     faqs: [
@@ -77,7 +85,7 @@ export const services = [
       },
       {
         q: 'Will you bill my insurance directly?',
-        a: 'Yes. We offer direct billing to most major insurers for physiotherapy, so you usually pay little or nothing at the visit.',
+        a: 'Yes. We offer direct billing to many major insurers for physiotherapy, subject to your plan rules, limits and eligibility.',
       },
     ],
 
@@ -94,6 +102,7 @@ export const services = [
       keywords: [
         'physiotherapy London Ontario',
         'physiotherapist North London',
+        'postural restoration physiotherapy London',
         'post surgical rehab London Ontario',
         'sports injury physiotherapy',
       ],
@@ -162,7 +171,7 @@ export const services = [
       },
       {
         q: 'Do I need a referral to see a chiropractor?',
-        a: 'No referral is needed to book. Some insurance plans require one for reimbursement — we’re happy to help you confirm your coverage.',
+        a: 'No referral is needed to book. Some insurance plans require one for reimbursement, so it is worth checking your plan rules before submitting a claim.',
       },
       {
         q: 'Do you treat children?',
@@ -209,7 +218,7 @@ export const services = [
     about: {
       heading: 'About massage therapy at Planet Health Care',
       body: [
-        'Registered massage therapy at Planet Health Care in London, Ontario is delivered by an RMT with international training and a genuinely results-driven approach. Sessions are tailored to you — deep therapeutic work to unwind injury and chronic tension, gentle relaxation massage to manage stress, or specialized manual lymphatic drainage using the Dr. Vodder Method for swelling and lymphedema. We also offer Thai massage and assisted stretching to restore mobility and flexibility.',
+        'Registered massage therapy at Planet Health Care in London, Ontario is delivered by an RMT with international training and a genuinely results-driven approach. Sessions are tailored to you - deep therapeutic work to unwind injury and chronic tension, gentle relaxation/swedish massage to manage stress, or specialized manual lymphatic drainage using the Dr. Vodder Method for swelling and lymphedema. We also offer Thai massage and assisted stretching to restore mobility and flexibility.',
         'Every appointment starts with a short check-in on your goals and pressure preference, so the hour is spent where your body needs it. Because your RMT works beside our physiotherapists and chiropractors, massage can slot neatly into a broader recovery plan — loosening tissue so an adjustment holds, or easing a muscle so an exercise program progresses faster.',
       ],
     },
@@ -241,7 +250,7 @@ export const services = [
     practitioner: {
       who: 'Roshel Jacob, Registered Massage Therapist.',
       coverage:
-        'RMT receipts are covered by most extended health plans. We offer direct billing so you usually pay little or nothing at the visit.',
+        'RMT receipts are eligible under many extended health plans. We offer direct billing where your insurer allows, subject to your plan rules and limits.',
     },
 
     faqs: [
@@ -329,7 +338,7 @@ export const services = [
     practitioner: {
       who: 'Divya Nambiar, M.Phil., C. Psych. Assoc. — sessions in English, Hindi, Tamil, Malayalam and Bengali.',
       coverage:
-        'Psychology services are covered by most extended health plans and MVA claims. We can help you understand your coverage before you begin.',
+        'Psychology services may be covered by extended health plans and MVA claims. Your insurer is the best source for exact limits, referrals and reimbursement rules.',
     },
 
     faqs: [
@@ -374,7 +383,7 @@ export const services = [
     bookLabel: 'Book shockwave therapy',
     image: '/images/service-shockwave.jpg',
     imageAlt:
-      'Clinician applying a radial shockwave therapy handpiece to a patient’s forearm at Planet Health Care',
+      'Hiral Desai applying radial shockwave therapy to a patient foot at Planet Health Care',
 
     menuNote: 'Radial shockwave for stubborn tendon pain',
     summary:
@@ -386,18 +395,24 @@ export const services = [
     about: {
       heading: 'About shockwave therapy at Planet Health Care',
       body: [
-        'Shockwave therapy at Planet Health Care in London, Ontario is for the pain that won’t quit — the plantar fasciitis you’ve limped on for a year, the tennis elbow that outlasted every brace, the Achilles that flares every time you run. Radial shockwave delivers focused acoustic energy into the affected tendon or fascia, stimulating blood flow and kick-starting the body’s own repair response in tissue that had stalled.',
-        'Treatments are short, done right in the clinic, and typically run three to five sessions about a week apart. Crucially, we don’t treat shockwave as a magic bullet: our physiotherapist or chiropractor confirms it’s the right tool for your condition, then pairs it with a progressive loading program so the tissue heals stronger and the pain stays gone. If it isn’t the right fit, we’ll tell you and point you to what is.',
+        "Shockwave therapy at Planet Health Care in London, Ontario is for stubborn musculoskeletal pain - the plantar fasciitis you have limped on for months, the tennis elbow that outlasted every brace, the Achilles that flares every time you run. Radial shockwave delivers focused acoustic energy into the affected tendon, fascia or soft tissue to stimulate circulation and support the body's natural healing response.",
+        'Treatments are short, done right in the clinic, and typically run three to five sessions about a week apart. We do not treat shockwave as a magic bullet: our physiotherapist or chiropractor confirms it is an appropriate option for your condition, then pairs it with a progressive loading or mobility plan so the tissue has a clear next step.',
       ],
     },
 
     conditions: [
-      'Plantar fasciitis',
-      'Tennis and golfer’s elbow',
-      'Achilles tendinopathy',
+      'Plantar fasciitis and heel spurs',
+      "Tennis and golfer's elbow",
+      'Achilles, patellar and hamstring tendinopathy',
+      'Rotator cuff injuries',
       'Calcific shoulder tendinitis',
-      'Patellar tendinopathy (jumper’s knee)',
-      'Chronic hamstring pain',
+      'Jumper knee',
+      'Shin splints',
+      'Bursitis',
+      'Scar tissue management',
+      'Morton neuroma',
+      'Trigger point pain',
+      'Sports sprains and strains',
     ],
 
     firstVisit: [
@@ -462,29 +477,35 @@ export const services = [
     accent: 'teal',
     bookLabel: 'Book acupuncture',
     image: '/images/service-acupuncture.jpg',
-    imageAlt: 'Treatment room at Planet Health Care, set up for therapy',
+    imageAlt: 'Fine acupuncture needles placed along a patient arm during treatment',
 
-    menuNote: 'Needling that releases trigger points',
-    summary: 'Acupuncture and dry needling to release trigger points and speed recovery.',
+    menuNote: 'Medical acupuncture and dry needling',
+    summary: 'Medical acupuncture and dry needling for pain, muscle tension and recovery support.',
     headline: 'Acupuncture & Dry Needling in London, Ontario',
     intro:
-      'Targeted needling that releases trigger points, calms pain and speeds recovery — delivered as part of your broader rehab plan, not in isolation.',
+      'Contemporary medical acupuncture and dry needling delivered by trained physiotherapy and chiropractic practitioners as part of a broader rehabilitation plan.',
 
     about: {
       heading: 'About acupuncture at Planet Health Care',
       body: [
-        'Acupuncture and dry needling at Planet Health Care in London, Ontario use fine, sterile, single-use needles to release myofascial trigger points, calm irritated nerves and improve blood flow to healing tissue. Dry needling targets the tight, ropey bands within a muscle that refer pain elsewhere; traditional acupuncture points can be used to settle broader tension and pain patterns. Most patients feel only a small prick and then a deep ache or twitch as the trigger point releases.',
-        'What makes needling work at our clinic is that it’s never a standalone gimmick — it’s delivered by our trained physiotherapy and chiropractic practitioners and folded into an exercise or manual-therapy plan, so the relief holds. It pairs especially well with treatment for chronic muscle tightness, tendinopathy, headaches and sports recovery.',
+        'Acupuncture and dry needling at Planet Health Care in London, Ontario use fine, sterile, single-use needles placed at specific points along muscles, nerves, tendons or fascia. The goal is to stimulate a local physiological response, improve circulation, calm irritated nerves and support the body recovery process.',
+        'Treatment is delivered by our trained physiotherapy and chiropractic practitioners and is usually folded into a broader plan that may include exercise, manual therapy, massage or shockwave. That collaborative approach means we assess the whole picture, not just one sore spot, and adjust the plan to your specific needs.',
       ],
     },
 
     conditions: [
+      'Low back and neck pain',
+      'Rotator cuff injuries',
+      "Tennis and golfer's elbow",
+      'Chronic pain',
+      'TMJ dysfunction',
+      'Sciatica and nerve pain',
+      'Stress and anxiety',
+      "Women's health concerns",
       'Myofascial trigger points',
-      'Chronic muscle tightness',
-      'Tendinopathy',
-      'Headaches and neck tension',
-      'Sports recovery',
-      'Nerve-related pain',
+      'Osteoarthritis',
+      'Carpal tunnel symptoms',
+      'Migraines and tension headaches',
     ],
 
     firstVisit: [
@@ -494,11 +515,11 @@ export const services = [
       },
       {
         title: 'Treatment',
-        body: 'Fine, sterile, single-use needles placed at precise points — most feel minimal discomfort.',
+        body: 'Fine, sterile, single-use needles placed at precise points. Needles may rest for 10-30 minutes depending on your plan.',
       },
       {
         title: 'Integration',
-        body: 'Needling is paired with exercise or manual therapy so results last.',
+        body: 'Needling is paired with exercise, manual therapy or another service when that supports your recovery plan.',
       },
     ],
 
@@ -511,7 +532,7 @@ export const services = [
     faqs: [
       {
         q: 'What’s the difference between dry needling and acupuncture?',
-        a: 'Dry needling targets muscular trigger points to release tight bands; traditional acupuncture uses defined points to influence broader pain and tension. We use whichever suits your condition.',
+        a: 'Dry needling targets muscular trigger points and painful tissue. Contemporary medical acupuncture uses specific points to influence pain, circulation and nervous-system response. We use the approach that suits your condition and provider scope.',
       },
       {
         q: 'Are the needles safe?',
@@ -519,7 +540,7 @@ export const services = [
       },
       {
         q: 'Is needling covered by insurance?',
-        a: 'It’s billed under physiotherapy or chiropractic coverage on most plans, and we offer direct billing.',
+        a: 'When acupuncture is provided by a physiotherapist or chiropractor, it is billed under that service category. We can direct bill many insurance companies on your behalf.',
       },
     ],
 
@@ -532,11 +553,106 @@ export const services = [
     seo: {
       title: 'Acupuncture & Dry Needling in London, Ontario',
       description:
-        'Acupuncture and dry needling in North London, Ontario to release trigger points and speed recovery, at Sherwood Forest Mall. Direct billing available.',
+        'Medical acupuncture and dry needling in North London, Ontario for pain, trigger points, muscle tension and recovery support at Sherwood Forest Mall. Direct billing available.',
       keywords: [
         'acupuncture London Ontario',
         'dry needling London Ontario',
         'trigger point needling North London',
+      ],
+    },
+  },
+
+  {
+    slug: 'pelvic-floor-physiotherapy',
+    name: 'Pelvic Floor Physiotherapy',
+    icon: 'pelvicFloor',
+    accent: 'brand',
+    bookLabel: 'Book pelvic floor physiotherapy',
+    image: '/images/service-pelvic-floor-physiotherapy.jpg',
+    imageAlt:
+      'Hiral Desai guiding a patient through a mobility assessment at Planet Health Care',
+
+    menuNote: 'Specialized pelvic health physiotherapy',
+    summary:
+      'Specialized physiotherapy for bladder, bowel, pelvic pain, pregnancy and postpartum concerns.',
+    headline: 'Pelvic Floor Physiotherapy in London, Ontario',
+    intro:
+      'Specialized pelvic floor physiotherapy in North London for bladder, bowel, pelvic pain, pregnancy and postpartum concerns - delivered with privacy, consent and a clear treatment plan.',
+
+    about: {
+      heading: 'About pelvic floor physiotherapy at Planet Health Care',
+      body: [
+        'Pelvic floor physiotherapy assesses and treats the muscles, ligaments, nerves and connective tissue that support bladder, bowel, sexual and core function. At Planet Health Care, this specialty service is offered in a private, respectful setting at Sherwood Forest Mall, with time to understand your symptoms, explain what is happening and build a plan that fits your comfort level.',
+        'Treatment may include education about pelvic floor function, bladder and bowel habits, pain management, breathing, posture, manual therapy for surrounding muscles and joints, and individualized exercises for the core, hips and pelvic floor. Any internal assessment or treatment is discussed first, requires your consent, and can be declined or stopped at any time.',
+      ],
+    },
+
+    conditions: [
+      'Urinary urgency and frequency',
+      'Bladder leakage or incontinence',
+      'Bowel dysfunction and constipation',
+      'Pelvic organ prolapse symptoms',
+      'Chronic pelvic pain',
+      'Pain with intercourse',
+      'Pregnancy and postpartum pelvic pain',
+      'C-section or perineal scar concerns',
+      'Diastasis recti',
+      'Pubic symphysis or SI joint pain',
+      'Endometriosis-related pelvic pain',
+      'Overactive pelvic floor symptoms',
+    ],
+
+    firstVisit: [
+      {
+        title: 'Private conversation',
+        body: 'Your visit starts with a confidential history and a clear explanation of what pelvic floor physiotherapy can involve.',
+      },
+      {
+        title: 'Assessment with consent',
+        body: 'Your physiotherapist assesses posture, movement, breathing, hips, core and pelvic floor function. Sensitive assessment is only done with your consent.',
+      },
+      {
+        title: 'Your plan',
+        body: 'You leave with education, practical strategies and a customized home exercise plan matched to your symptoms and goals.',
+      },
+    ],
+
+    practitioner: {
+      who: 'Hiral Desai, Registered Physiotherapist with continuing education in pelvic floor therapy.',
+      coverage:
+        'Pelvic floor physiotherapy is billed as physiotherapy and is covered by many extended health plans. Direct billing is available for many insurers.',
+    },
+
+    faqs: [
+      {
+        q: 'Do I need a doctor referral for pelvic floor physiotherapy?',
+        a: 'No. You can book directly. Some insurance plans may require a referral for reimbursement, so check your plan details if you are unsure.',
+      },
+      {
+        q: 'Will I need an internal pelvic exam?',
+        a: 'Not necessarily. Your physiotherapist will explain every option first. Any internal assessment or treatment requires your consent and can be declined or stopped at any time.',
+      },
+      {
+        q: 'Can pelvic floor physiotherapy help after pregnancy?',
+        a: 'Yes. It can support postpartum recovery, pelvic pain, bladder leakage, diastasis recti, scar sensitivity and return to activity.',
+      },
+    ],
+
+    pairsWith: [
+      { slug: 'physiotherapy', note: 'Coordinate pelvic health with whole-body rehabilitation.' },
+      { slug: 'massage-therapy', note: 'Ease surrounding muscle tension when appropriate.' },
+      { slug: 'acupuncture', note: 'Support pain and muscle tension as part of a broader plan.' },
+    ],
+
+    seo: {
+      title: 'Pelvic Floor Physiotherapy in London, Ontario',
+      description:
+        'Pelvic floor physiotherapy in North London, Ontario for bladder leakage, pelvic pain, pregnancy, postpartum recovery, bowel concerns and core function at Sherwood Forest Mall.',
+      keywords: [
+        'pelvic floor physiotherapy London Ontario',
+        'pelvic health physiotherapist North London',
+        'postpartum physiotherapy London Ontario',
+        'bladder leakage physiotherapy London',
       ],
     },
   },

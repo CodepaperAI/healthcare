@@ -10,6 +10,7 @@ export const team = [
     role: 'Registered Physiotherapist',
     slug: 'hiral-desai',
     image: '/images/team-hiral-desai.jpg',
+    featured: true,
     bio: 'A physiotherapist with 18+ years of experience across two continents, practising evidence-based, one-on-one manual therapy with exercise rehabilitation and modalities including shockwave. Continuing education in Mulligan concepts, pelvic floor therapy and Kinesio taping.',
   },
   {
@@ -17,7 +18,6 @@ export const team = [
     role: 'Chiropractor',
     slug: 'tiffany-rose-lukas',
     image: '/images/team-tiffany-rose-lukas.jpg',
-    featured: true,
     bio: 'A graduate of the Canadian Memorial Chiropractic College with a focus on pre- and post-natal, paediatric and intra-oral function. Treatment blends soft-tissue therapy, mobilization, shockwave and custom orthotics.',
   },
   {
@@ -96,8 +96,8 @@ export const principles = [
     icon: 'clipboard',
   },
   {
-    title: 'No forms, no friction',
-    body: 'Direct billing to all insurers, same-day appointments and free parking at the door. We handle the paperwork.',
+    title: 'Clear next steps',
+    body: 'Direct billing to many insurers, same-day appointments and free parking at the door. We explain what to expect before your visit.',
     icon: 'shield',
   },
 ];
@@ -114,10 +114,10 @@ export const clinicStats = [
     note: 'Physio, chiro, RMT, psychology & fitting',
   },
   {
-    value: 6,
+    value: 7,
     suffix: '',
     label: 'Clinical services',
-    note: 'Coordinated in one shared plan',
+    note: 'Including pelvic floor physiotherapy',
   },
   {
     value: 6,
@@ -129,6 +129,6 @@ export const clinicStats = [
     value: 100,
     suffix: '%',
     label: 'Direct billing',
-    note: 'To all major insurers — no forms for you',
+    note: 'To many major extended health insurers',
   },
 ];

@@ -15,7 +15,7 @@ export default function TeamPreview() {
             eyebrow="The team"
             index="05"
             title="People your family can trust"
-            description="A few of the people you'll meet at Sherwood Forest Mall. The full team spans physiotherapy, chiropractic, pedorthics, massage therapy and psychology."
+            description="A few of the people you'll meet at Sherwood Forest Mall. The full team spans physiotherapy, pelvic floor physiotherapy, chiropractic, pedorthics, massage therapy and psychology."
             className="max-w-2xl"
           />
           <Reveal variant="fade" className="shrink-0">

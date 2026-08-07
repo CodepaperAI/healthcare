@@ -8,7 +8,7 @@ export const site = {
   legalName: 'Planet Health Care',
   tagline: 'Better Care. Better Health. Better Tomorrow.',
   shortDescription:
-    'A multidisciplinary clinic in North London, Ontario — physiotherapy, chiropractic, massage therapy, psychology, shockwave and acupuncture under one roof.',
+    'A multidisciplinary clinic in North London, Ontario — physiotherapy, pelvic floor physiotherapy, chiropractic, registered massage therapy, psychology, shockwave and acupuncture under one roof.',
 
   // Update this to the production domain before deploying.
   url: 'https://www.planethealthcare.ca',

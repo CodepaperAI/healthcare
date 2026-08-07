@@ -32,14 +32,15 @@ const body = Inter({
 export const metadata = {
   metadataBase: new URL(site.url),
   ...buildMetadata({
-    title: 'Physiotherapy, Chiropractic & Custom Orthotics in North London',
+    title: 'Physiotherapy, Registered Massage, Pelvic Floor Physio & Custom Orthotics',
     description:
-      'Planet Health Care is a multidisciplinary clinic at Sherwood Forest Mall in North London, Ontario — physiotherapy, chiropractic, massage, psychology, shockwave and acupuncture, plus compression stockings and custom bracing. Direct billing, same-day appointments, free parking.',
+      'Planet Health Care is a multidisciplinary clinic at Sherwood Forest Mall in North London, Ontario — physiotherapy, pelvic floor physiotherapy, chiropractic, registered massage therapy, psychology, shockwave and acupuncture, plus medical compression stockings, custom orthotics and bracing.',
     path: '/',
     keywords: [
       'physiotherapy London Ontario',
+      'pelvic floor physiotherapy London Ontario',
+      'registered massage therapy North London',
       'chiropractor London Ontario',
-      'massage therapy North London',
       'custom orthotics London Ontario',
       'compression stockings London Ontario',
       'Sherwood Forest Mall clinic',

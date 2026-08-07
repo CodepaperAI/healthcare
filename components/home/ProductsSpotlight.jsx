@@ -22,13 +22,13 @@ export default function ProductsSpotlight() {
             </div>
 
             <h2 className="mt-4 text-display-sm font-extrabold text-strong">
-              Braces and compression, measured and fitted in clinic
+              Medical compression stockings, custom orthopedic bracing and recovery products
             </h2>
             <p className="mt-5 max-w-prose text-[1.02rem] leading-relaxed text-muted">
-              Most clinics send you elsewhere to buy a brace or compression stockings. We assess,
-              measure and fit them here — Sigvaris compression, custom and off-the-shelf bracing for
-              knee, ankle, wrist, shoulder and back, plus TENS units, Theragun and Biofreeze. Covered
-              by most extended health plans with a prescription, billed directly.
+              We assess, measure and fit Sigvaris medical compression stockings, custom orthotics
+              and custom orthopedic bracing in clinic. You can also find TENS units, therapeutic
+              massage guns and Biofreeze for recovery at home. Direct billing is available for many
+              extended health plans.
             </p>
 
             <Reveal stagger={0.06} className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -54,8 +54,8 @@ export default function ProductsSpotlight() {
 
           <Reveal variant="left" className="relative">
             <Figure
-              src="/images/products-fitting.jpg"
-              alt="Certified pedorthist measuring a patient's leg for graduated compression stockings in clinic"
+              src="/images/product-custom-orthotics.jpg"
+              alt="Certified pedorthist assessing a patient foot for custom orthotics at Planet Health Care"
               width={1200}
               height={1000}
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -66,8 +66,8 @@ export default function ProductsSpotlight() {
                 <Icon name="compression" className="h-[1.1rem] w-[1.1rem]" />
               </span>
               <div>
-                <p className="text-[0.86rem] font-bold text-strong">Fitted on site</p>
-                <p className="text-[0.76rem] text-muted">No second trip elsewhere</p>
+                <p className="text-[0.86rem] font-bold text-strong">Measured on site</p>
+                <p className="text-[0.76rem] text-muted">Orthotics, braces and compression</p>
               </div>
             </div>
           </Reveal>

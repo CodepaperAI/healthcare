@@ -21,7 +21,7 @@ const trail = [
 export const metadata = buildMetadata({
   title: 'Services — Physiotherapy, Chiropractic, Massage & More in London, Ontario',
   description:
-    'Physiotherapy, chiropractic, massage therapy, psychology, shockwave therapy and acupuncture in North London, Ontario at Sherwood Forest Mall. Direct billing, same-day appointments.',
+    'Physiotherapy, pelvic floor physiotherapy, chiropractic, registered massage therapy, psychology, shockwave therapy and acupuncture in North London, Ontario.',
   path: '/services',
   keywords: [
     'physiotherapy clinic London Ontario',
@@ -37,7 +37,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Our services · North London, Ontario"
         title="Physiotherapy & rehabilitation services in London, Ontario"
-        intro="Six clinical disciplines, one coordinated team at Sherwood Forest Mall. Every service links to its own page with the conditions we treat, what to expect on your first visit, coverage and answers to common questions."
+        intro="Seven clinical disciplines, one coordinated team at Sherwood Forest Mall. Every service links to its own page with the conditions we treat, what to expect on your first visit, coverage and answers to common questions."
         trail={trail}
         bookLabel="Book an Appointment"
       />
@@ -87,11 +87,12 @@ export default function ServicesPage() {
             <div>
               <p className="eyebrow">Beyond treatment</p>
               <h2 className="mt-4 text-display-sm font-extrabold text-strong">
-                Compression, bracing &amp; recovery products
+                Medical compression, custom bracing &amp; recovery products
               </h2>
               <p className="mt-5 max-w-prose text-[1.02rem] leading-relaxed text-muted">
-                We also assess, measure and fit compression stockings and orthopedic braces in
-                clinic, and carry TENS units, Theragun and Biofreeze.
+                We also assess, measure and fit medical compression stockings, custom orthotics and
+                orthopedic braces in clinic, and carry TENS units, therapeutic massage guns and
+                Biofreeze.
               </p>
               <Button href="/products" icon="arrowRight" className="mt-8">
                 Explore products
@@ -100,8 +101,8 @@ export default function ServicesPage() {
 
             <Reveal variant="left">
               <Figure
-                src="/images/products-fitting.jpg"
-                alt="Compression stockings and orthopedic bracing being fitted at Planet Health Care"
+                src="/images/product-custom-orthotics.jpg"
+                alt="Certified pedorthist assessing a patient foot for custom orthotics at Planet Health Care"
                 width={900}
                 height={700}
                 sizes="(max-width: 1024px) 100vw, 40vw"

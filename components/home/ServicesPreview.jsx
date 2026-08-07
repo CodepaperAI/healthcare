@@ -9,9 +9,9 @@ import { services } from '@/data/services';
 import { pad } from '@/lib/utils';
 
 /**
- * Services grid. Numbering is meaningful here — the clinic presents its six
+ * Services grid. Numbering is meaningful here — the clinic presents its seven
  * disciplines as a numbered set on every page, and each service page states
- * its position ("Service 03 of 06").
+ * its position ("Service 03 of 07").
  */
 export default function ServicesPreview() {
   return (
@@ -22,7 +22,7 @@ export default function ServicesPreview() {
             eyebrow="Our services"
             index="01"
             title="Care for how you move and feel"
-            description="Six disciplines, one coordinated plan. Every service has its own page with the conditions we treat, what to expect and your coverage."
+            description="Seven disciplines, one coordinated plan. Every service has its own page with the conditions we treat, what to expect and your coverage."
             className="max-w-2xl"
           />
           <Reveal variant="fade" className="shrink-0">

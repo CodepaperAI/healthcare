@@ -35,8 +35,8 @@ npm run lint       # ESLint
 | `/` | Homepage |
 | `/about` | About & full team |
 | `/services` | Services index |
-| `/services/[service]` | Six service pages, generated from data |
-| `/products` | Compression, bracing and recovery products |
+| `/services/[service]` | Seven service pages, generated from data |
+| `/products` | Medical compression, custom orthotics, bracing and recovery products |
 | `/direct-billing` | Insurance direct billing |
 | `/special-programs` | MVA, IFHP, VAC, FAF |
 | `/careers` | Open roles |

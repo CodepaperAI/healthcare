@@ -8,9 +8,10 @@ writing code.
 ## 1. Project purpose
 
 Production website for **Planet Health Care**, a multidisciplinary health clinic
-at Sherwood Forest Mall, North London, Ontario. Six clinical services
-(physiotherapy, chiropractic, massage therapy, psychology, shockwave therapy,
-acupuncture) plus in-clinic compression and bracing fitting.
+at Sherwood Forest Mall, North London, Ontario. Seven clinical services
+(physiotherapy, pelvic floor physiotherapy, chiropractic, massage therapy,
+psychology, shockwave therapy, acupuncture) plus in-clinic compression, custom
+orthotics and bracing fitting.
 
 The site exists to do three things, in order:
 
@@ -70,7 +71,7 @@ app/
   icon.svg                  Favicon
   about/ services/ products/ direct-billing/
   special-programs/ careers/ contact/ cancellation-policy/
-  services/[service]/       ONE template renders all six service pages
+  services/[service]/       ONE template renders all service pages
 
 components/
   layout/     Header, Footer, MobileMenu, MobileActionBar, ThemeProvider, ThemeToggle
@@ -101,7 +102,7 @@ belongs in `data/`.
 | -------------------- | -------------------------------------------------------- |
 | `data/site.js`       | Name, phone, email, address, hours, socials, booking URL, service areas |
 | `data/navigation.js` | Header, mega-menu and footer links                       |
-| `data/services.js`   | All six services: copy, conditions, first visit, FAQs, SEO |
+| `data/services.js`   | All services: copy, conditions, first visit, FAQs, SEO |
 | `data/team.js`       | Practitioners, clinic principles, clinic stats           |
 | `data/products.js`   | Products, tags, product FAQs                             |
 | `data/insurers.js`   | Insurer list, billing steps, billing FAQs                |

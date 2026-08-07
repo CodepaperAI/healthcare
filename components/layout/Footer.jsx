@@ -137,7 +137,7 @@ export default function Footer() {
       <div className="border-t border-line">
         <div className="shell flex flex-col gap-3 py-6 text-[0.8rem] text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {year} {site.name} · Physiotherapy, Chiropractic &amp; Custom Orthotics in{' '}
+            © {year} {site.name} · Physiotherapy, Registered Massage &amp; Custom Orthotics in{' '}
             {site.address.city}, {site.address.regionName}
           </p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
