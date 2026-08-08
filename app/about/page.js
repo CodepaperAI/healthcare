@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
+import Icon from '@/components/ui/Icon';
 import IconWrapper from '@/components/ui/IconWrapper';
 import SectionHeading from '@/components/ui/SectionHeading';
 import Reveal, { RevealItem } from '@/components/ui/Reveal';
@@ -83,15 +84,18 @@ export default function AboutPage() {
           <Reveal stagger={0.06} className="mt-12 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
             {team.map((member) => (
               <RevealItem key={member.slug}>
-                <article className="group flex h-full flex-col overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1 hover:shadow-lift">
-                  <div className="relative aspect-[4/3] overflow-hidden bg-canvas">
+                <article
+                  id={`team-${member.slug}`}
+                  className="group flex h-full scroll-mt-28 flex-col overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1 hover:shadow-lift"
+                >
+                  <div className="relative aspect-[4/5] overflow-hidden bg-canvas">
                     <Image
                       src={member.image}
                       alt={`${member.name}, ${member.role} at Planet Health Care`}
                       width={640}
-                      height={480}
+                      height={800}
                       sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                      className="h-full w-full object-cover transition-transform duration-[900ms] ease-premium group-hover:scale-[1.04]"
+                      className="h-full w-full object-contain object-top transition-transform duration-[900ms] ease-premium group-hover:scale-[1.02]"
                     />
                   </div>
                   <div className="flex flex-1 flex-col p-6">
@@ -99,9 +103,15 @@ export default function AboutPage() {
                       {member.name}
                     </h3>
                     <p className="mt-1 text-[0.82rem] font-semibold text-brand-600">{member.role}</p>
-                    <p className="mt-3.5 flex-1 text-[0.9rem] leading-relaxed text-muted">
-                      {member.bio}
-                    </p>
+                    <details open className="group/bio mt-4 flex-1">
+                      <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between rounded-card border border-line bg-surface px-4 py-2.5 text-[0.86rem] font-semibold text-strong sm:hidden [&::-webkit-details-marker]:hidden">
+                        Full bio
+                        <Icon name="chevronDown" className="h-4 w-4 text-brand-600" />
+                      </summary>
+                      <p className="mt-3.5 text-[0.9rem] leading-relaxed text-muted">
+                        {member.bio}
+                      </p>
+                    </details>
                   </div>
                 </article>
               </RevealItem>
