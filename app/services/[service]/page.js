@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Icon from '@/components/ui/Icon';
 import Container from '@/components/ui/Container';
-import Figure from '@/components/ui/Figure';
 import Prose from '@/components/ui/Prose';
 import IconWrapper from '@/components/ui/IconWrapper';
 import SectionHeading from '@/components/ui/SectionHeading';
@@ -60,28 +59,17 @@ export default async function ServicePage({ params }) {
         trail={trail}
         bookLabel={service.bookLabel}
         showAssurances
+        image={service.image}
+        imageAlt={service.imageAlt}
       />
 
-      {/* About + photograph */}
+      {/* About */}
       <section className="bg-canvas py-section">
         <Container>
-          <div className="grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
-            <div>
-              <SectionHeading eyebrow="Overview" title={service.about.heading} as="h2" />
-              <Reveal variant="up" className="mt-7">
-                <Prose paragraphs={service.about.body} size="lg" />
-              </Reveal>
-            </div>
-
-            <Reveal variant="left">
-              <Figure
-                src={service.image}
-                alt={service.imageAlt}
-                width={1100}
-                height={1100}
-                sizes="(max-width: 1024px) 100vw, 45vw"
-                className="aspect-[4/3] lg:aspect-square"
-              />
+          <div className="max-w-4xl">
+            <SectionHeading eyebrow="Overview" title={service.about.heading} as="h2" />
+            <Reveal variant="up" className="mt-7">
+              <Prose paragraphs={service.about.body} size="lg" />
             </Reveal>
           </div>
         </Container>

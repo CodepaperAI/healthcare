@@ -58,7 +58,8 @@ export default function Hero() {
               className="mt-5 text-display-lg font-extrabold text-strong"
               {...itemProps}
             >
-              Physiotherapy, registered massage, pelvic floor physio &amp; custom orthotics in{' '}
+              Physiotherapy, Massage Therapy, Chiropractic, Pelvic Floor Physio and Custom
+              Orthotics in{' '}
               <span className="text-gradient-brand">North London</span>
             </motion.h1>
 

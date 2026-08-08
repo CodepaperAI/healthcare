@@ -31,7 +31,8 @@ export default function HomePage() {
       <Schema
         data={[
           webPageSchema({
-            title: 'Physiotherapy, Registered Massage, Pelvic Floor Physio & Custom Orthotics',
+            title:
+              'Physiotherapy, Massage Therapy, Chiropractic, Pelvic Floor Physio & Custom Orthotics',
             description:
               'Multidisciplinary clinic in North London, Ontario offering physiotherapy, pelvic floor physiotherapy, chiropractic, registered massage therapy, psychology, shockwave and acupuncture.',
             path: '/',

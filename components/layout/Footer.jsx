@@ -15,6 +15,7 @@ export default function Footer() {
   const socials = [
     { name: 'Facebook', icon: 'facebook', href: site.links.facebook },
     { name: 'Instagram', icon: 'instagram', href: site.links.instagram },
+    { name: 'LinkedIn', icon: 'linkedin', href: site.links.linkedin },
     { name: 'Google reviews', icon: 'google', href: site.links.googleReviews },
   ].filter((social) => social.href);
 

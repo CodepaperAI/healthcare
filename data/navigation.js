@@ -54,6 +54,7 @@ export const footerNav = [
       { label: 'Contact', href: '/contact' },
       { label: 'Facebook', href: 'facebook', external: true },
       { label: 'Instagram', href: 'instagram', external: true },
+      { label: 'LinkedIn', href: 'linkedin', external: true },
       { label: 'Google reviews', href: 'googleReviews', external: true },
     ],
   },

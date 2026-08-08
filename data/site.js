@@ -16,8 +16,8 @@ export const site = {
 
   phone: '226-721-8777',
   phoneHref: 'tel:+12267218777',
-  email: 'info@planethealthcare.ca',
-  emailHref: 'mailto:info@planethealthcare.ca',
+  email: 'Planethealthcare101@gmail.com',
+  emailHref: 'mailto:Planethealthcare101@gmail.com',
 
   address: {
     unit: 'Unit 15',
@@ -38,8 +38,9 @@ export const site = {
     booking:
       'https://planethealthcare.juvonno.com/portal/publicbook.php?step=practitioner&dr=0&branch_id=1&pt=&proid=0',
     map: 'https://maps.app.goo.gl/ocwqA3W3Mqh1wiK79',
-    facebook: 'https://www.facebook.com/Planet-Healthcare-100312841952708/',
+    facebook: 'https://www.facebook.com/PlanetHealthcarelondon/',
     instagram: 'https://www.instagram.com/planethealthcarelondon',
+    linkedin: 'https://ca.linkedin.com/company/planethealthcaregroup',
     googleReviews: 'https://maps.app.goo.gl/ocwqA3W3Mqh1wiK79',
   },
 

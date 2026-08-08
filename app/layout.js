@@ -32,7 +32,7 @@ const body = Inter({
 export const metadata = {
   metadataBase: new URL(site.url),
   ...buildMetadata({
-    title: 'Physiotherapy, Registered Massage, Pelvic Floor Physio & Custom Orthotics',
+    title: 'Physiotherapy, Massage Therapy, Chiropractic, Pelvic Floor Physio & Custom Orthotics',
     description:
       'Planet Health Care is a multidisciplinary clinic at Sherwood Forest Mall in North London, Ontario — physiotherapy, pelvic floor physiotherapy, chiropractic, registered massage therapy, psychology, shockwave and acupuncture, plus medical compression stockings, custom orthotics and bracing.',
     path: '/',
