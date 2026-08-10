@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Icon from '@/components/ui/Icon';
 import Container from '@/components/ui/Container';
 import Figure from '@/components/ui/Figure';
@@ -49,16 +50,32 @@ export default function ServicesPage() {
               <RevealItem key={service.slug}>
                 <Link
                   href={`/services/${service.slug}`}
-                  className="group flex h-full gap-5 rounded-card border border-line bg-elevated p-6 shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift sm:gap-6 sm:p-7"
+                  className="group grid h-full overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift sm:grid-cols-[11rem_minmax(0,1fr)]"
                 >
-                  <div className="flex flex-col items-center gap-3">
-                    <IconWrapper name={service.icon} accent={service.accent} size="lg" />
-                    <span className="font-display text-[0.78rem] font-bold tabular-nums text-muted/70">
+                  <div className="relative min-h-44 overflow-hidden bg-surface sm:min-h-full">
+                    <Image
+                      src={service.image}
+                      alt={service.imageAlt}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 11rem"
+                      className="object-cover transition-transform duration-[900ms] ease-premium group-hover:scale-[1.04]"
+                    />
+                    <span
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-gradient-to-t from-brand-900/55 via-brand-900/10 to-transparent"
+                    />
+                    <IconWrapper
+                      name={service.icon}
+                      accent="onDark"
+                      size="md"
+                      className="absolute bottom-4 left-4 backdrop-blur"
+                    />
+                    <span className="absolute right-4 top-4 rounded-full bg-canvas/90 px-2.5 py-1 font-display text-[0.76rem] font-bold tabular-nums text-muted shadow-card backdrop-blur dark:bg-elevated/90">
                       {pad(index + 1)}
                     </span>
                   </div>
 
-                  <div className="flex min-w-0 flex-1 flex-col">
+                  <div className="flex min-w-0 flex-1 flex-col p-6 sm:p-7">
                     <h2 className="font-display text-[1.22rem] font-bold text-strong transition-colors duration-300 group-hover:text-brand-600">
                       {service.name}
                     </h2>

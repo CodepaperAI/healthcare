@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Icon from '@/components/ui/Icon';
 import Container from '@/components/ui/Container';
 import IconWrapper from '@/components/ui/IconWrapper';
@@ -37,35 +38,53 @@ export default function ServicesPreview() {
             <RevealItem key={service.slug}>
               <Link
                 href={`/services/${service.slug}`}
-                className="group relative flex h-full flex-col overflow-hidden rounded-card border border-line bg-elevated p-6 shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift sm:p-7"
+                className="group relative flex h-full flex-col overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift"
               >
                 {/* Accent wash that surfaces on hover */}
                 <span
                   aria-hidden="true"
-                  className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-brand-600/[0.07] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                  className="pointer-events-none absolute -right-16 -top-16 z-10 h-40 w-40 rounded-full bg-brand-600/[0.07] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
                 />
 
-                <div className="flex items-start justify-between gap-4">
-                  <IconWrapper name={service.icon} accent={service.accent} size="lg" />
-                  <span className="font-display text-[0.8rem] font-bold tabular-nums text-muted/70">
+                <div className="relative aspect-[16/9] overflow-hidden bg-surface">
+                  <Image
+                    src={service.image}
+                    alt={service.imageAlt}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-[900ms] ease-premium group-hover:scale-[1.04]"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="absolute inset-0 bg-gradient-to-t from-brand-900/50 via-brand-900/10 to-transparent"
+                  />
+                  <IconWrapper
+                    name={service.icon}
+                    accent="onDark"
+                    size="md"
+                    className="absolute bottom-4 left-4 backdrop-blur"
+                  />
+                  <span className="absolute right-4 top-4 rounded-full bg-canvas/90 px-2.5 py-1 font-display text-[0.76rem] font-bold tabular-nums text-muted shadow-card backdrop-blur dark:bg-elevated/90">
                     {pad(index + 1)}
                   </span>
                 </div>
 
-                <h3 className="mt-5 font-display text-[1.22rem] font-bold text-strong transition-colors duration-300 group-hover:text-brand-600">
-                  {service.name}
-                </h3>
-                <p className="mt-2.5 flex-1 text-[0.92rem] leading-relaxed text-muted">
-                  {service.summary}
-                </p>
+                <div className="flex flex-1 flex-col p-6 sm:p-7">
+                  <h3 className="font-display text-[1.22rem] font-bold text-strong transition-colors duration-300 group-hover:text-brand-600">
+                    {service.name}
+                  </h3>
+                  <p className="mt-2.5 flex-1 text-[0.92rem] leading-relaxed text-muted">
+                    {service.summary}
+                  </p>
 
-                <span className="mt-6 inline-flex items-center gap-1.5 text-[0.84rem] font-semibold text-brand-600">
-                  Learn more
-                  <Icon
-                    name="arrowRight"
-                    className="h-4 w-4 transition-transform duration-300 ease-premium group-hover:translate-x-1"
-                  />
-                </span>
+                  <span className="mt-6 inline-flex items-center gap-1.5 text-[0.84rem] font-semibold text-brand-600">
+                    Learn more
+                    <Icon
+                      name="arrowRight"
+                      className="h-4 w-4 transition-transform duration-300 ease-premium group-hover:translate-x-1"
+                    />
+                  </span>
+                </div>
               </Link>
             </RevealItem>
           ))}
