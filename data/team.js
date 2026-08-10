@@ -11,7 +11,7 @@ export const team = [
     slug: 'hiral-desai',
     image: '/images/team-hiral-desai.jpg',
     featured: true,
-    bio: 'A physiotherapist with 18+ years of experience across two continents, practising evidence-based, one-on-one manual therapy with exercise rehabilitation and modalities including shockwave. Continuing education in Mulligan concepts, pelvic floor therapy and Kinesio taping.',
+    bio: 'A physiotherapist with 17+ years of experience across two continents, practising evidence-based, one-on-one manual therapy with exercise rehabilitation and modalities including shockwave. Continuing education in Mulligan concepts, pelvic floor therapy and Kinesio taping.',
   },
   {
     name: 'Dr. Tiffany Rose Lukas',
@@ -120,10 +120,10 @@ export const clinicStats = [
     note: 'Including pelvic floor physiotherapy',
   },
   {
-    value: 6,
+    value: 17,
     suffix: '+',
-    label: 'Years in North London',
-    note: 'At Sherwood Forest Mall since 2020',
+    label: 'Years of experience',
+    note: 'Experienced multidisciplinary care',
   },
   {
     value: 100,
