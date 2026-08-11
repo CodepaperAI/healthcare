@@ -48,11 +48,12 @@ export default function ServicesPreview() {
 
                 <div className="relative aspect-[16/9] overflow-hidden bg-surface">
                   <Image
-                    src={service.image}
-                    alt={service.imageAlt}
+                    src={service.cardImage ?? service.image}
+                    alt={service.cardImageAlt ?? service.imageAlt}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                     className="object-cover transition-transform duration-[900ms] ease-premium group-hover:scale-[1.04]"
+                    style={{ objectPosition: service.cardImagePosition ?? 'center' }}
                   />
                   <span
                     aria-hidden="true"

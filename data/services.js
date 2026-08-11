@@ -384,6 +384,10 @@ export const services = [
     image: '/images/service-shockwave.jpg',
     imageAlt:
       'Hiral Desai applying radial shockwave therapy to a patient foot at Planet Health Care',
+    cardImage: '/images/service-shockwave-card.webp',
+    cardImageAlt:
+      'Radial shockwave therapy equipment in a Planet Health Care treatment room',
+    cardImagePosition: 'center 62%',
 
     menuNote: 'Radial shockwave for stubborn tendon pain',
     summary:

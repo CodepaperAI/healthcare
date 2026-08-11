@@ -54,11 +54,12 @@ export default function ServicesPage() {
                 >
                   <div className="relative min-h-44 overflow-hidden bg-surface sm:min-h-full">
                     <Image
-                      src={service.image}
-                      alt={service.imageAlt}
+                      src={service.cardImage ?? service.image}
+                      alt={service.cardImageAlt ?? service.imageAlt}
                       fill
                       sizes="(max-width: 640px) 100vw, 11rem"
                       className="object-cover transition-transform duration-[900ms] ease-premium group-hover:scale-[1.04]"
+                      style={{ objectPosition: service.cardImagePosition ?? 'center' }}
                     />
                     <span
                       aria-hidden="true"
