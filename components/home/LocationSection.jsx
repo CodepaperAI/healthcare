@@ -64,7 +64,7 @@ export default function LocationSection({ index }) {
 
             <p className="mt-6 flex items-start gap-2.5 rounded-xl bg-teal-500/[0.08] p-3.5 text-[0.84rem] leading-relaxed text-body">
               <Icon name="car" className="mt-0.5 h-4 w-4 shrink-0 text-teal-600 dark:text-teal-400" />
-              Free parking directly outside the clinic entrance.
+              Free parking directly outside the mall entrance.
             </p>
           </Reveal>
 

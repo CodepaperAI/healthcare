@@ -8,7 +8,6 @@ export const insurers = [
   'Blue Cross',
   'Equitable Life',
   'GMS',
-  'ClaimSecure',
   'Johnston Group',
   'SSQ',
   'Chambers of Commerce',

@@ -67,7 +67,7 @@ export default function TrustBar() {
           </span>
           <span className="flex items-center gap-2">
             <Icon name="car" className="h-4 w-4 text-teal-400" />
-            Free parking directly outside the clinic entrance
+            Free parking directly outside the mall entrance
           </span>
         </Reveal>
       </div>

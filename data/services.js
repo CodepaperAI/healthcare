@@ -574,7 +574,7 @@ export const services = [
     bookLabel: 'Book pelvic floor physiotherapy',
     image: '/images/service-pelvic-floor-physiotherapy.jpg',
     imageAlt:
-      'Hiral Desai guiding a patient through a mobility assessment at Planet Health Care',
+      'Hiral Desai guiding a pelvic floor physiotherapy exercise with a patient at Planet Health Care',
 
     menuNote: 'Specialized pelvic health physiotherapy',
     summary:

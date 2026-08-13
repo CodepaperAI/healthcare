@@ -22,7 +22,7 @@ text live in the `data/` files.
 | `service-psychology.jpg` | 900 × 900 | Divya Nambiar portrait |
 | `service-shockwave.jpg` | 1100 × 1100 | Hiral Desai using shockwave therapy |
 | `service-acupuncture.jpg` | 1100 × 825 | Acupuncture needles |
-| `service-pelvic-floor-physiotherapy.jpg` | 1100 × 1100 | Hiral Desai guiding a mobility assessment |
+| `service-pelvic-floor-physiotherapy.jpg` | 1100 × 1100 | Hiral Desai guiding a pelvic floor physiotherapy exercise |
 | `product-compression.jpg` | 1000 × 800 | Sigvaris medical compression stockings |
 | `product-custom-orthotics.jpg` | 1000 × 800 | Sean Deroo assessing a patient foot for custom orthotics |
 | `product-tens.jpg` | 1000 × 800 | TENS unit with electrode pads (Wikimedia Commons attribution in data) |
