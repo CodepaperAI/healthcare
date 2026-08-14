@@ -50,15 +50,15 @@ export default function ServicesPage() {
               <RevealItem key={service.slug}>
                 <Link
                   href={`/services/${service.slug}`}
-                  className="group grid h-full overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift sm:grid-cols-[11rem_minmax(0,1fr)]"
+                  className="group grid h-full rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift sm:grid-cols-[11rem_minmax(0,1fr)]"
                 >
-                  <div className="relative min-h-44 overflow-hidden bg-surface sm:min-h-full">
+                  <div className="relative min-h-44 bg-surface sm:min-h-full">
                     <Image
                       src={service.cardImage ?? service.image}
                       alt={service.cardImageAlt ?? service.imageAlt}
                       fill
                       sizes="(max-width: 640px) 100vw, 11rem"
-                      className="object-cover transition-transform duration-[900ms] ease-premium group-hover:scale-[1.04]"
+                      className="object-contain object-center transition-transform duration-[900ms] ease-premium group-hover:scale-[1.02]"
                       style={{ objectPosition: service.cardImagePosition ?? 'center' }}
                     />
                     <span

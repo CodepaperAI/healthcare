@@ -55,7 +55,7 @@ export default function Hero() {
             </motion.div>
 
             <motion.h1
-              className="mt-5 text-display-lg font-extrabold text-strong"
+              className="mt-5 max-w-[42rem] text-[2.2rem] font-extrabold leading-[0.98] tracking-[-0.04em] text-strong sm:text-[2.8rem] lg:text-[3.35rem]"
               {...itemProps}
             >
               Physiotherapy, Massage Therapy, Chiropractic, Pelvic Floor Physio and Custom
@@ -64,7 +64,7 @@ export default function Hero() {
             </motion.h1>
 
             <motion.p
-              className="mt-6 max-w-xl text-[1.04rem] leading-relaxed text-muted sm:text-[1.1rem]"
+              className="mt-6 max-w-xl text-[0.96rem] leading-relaxed text-muted sm:text-[1.02rem]"
               {...itemProps}
             >
               One team of ten practitioners - physiotherapists, pelvic floor physiotherapy,

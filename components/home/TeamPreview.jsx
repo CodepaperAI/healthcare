@@ -32,9 +32,9 @@ export default function TeamPreview() {
             <RevealItem key={member.slug}>
               <Link
                 href={`/about#team-${member.slug}`}
-                className="group block h-full overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1 hover:shadow-lift"
+                className="group block h-full rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1 hover:shadow-lift"
               >
-                <div className="relative aspect-[4/5] overflow-hidden bg-canvas">
+                <div className="relative aspect-[4/5] bg-canvas">
                   <Image
                     src={member.image}
                     alt={`${member.name}, ${member.role} at Planet Health Care`}

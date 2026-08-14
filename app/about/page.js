@@ -86,9 +86,9 @@ export default function AboutPage() {
               <RevealItem key={member.slug}>
                 <article
                   id={`team-${member.slug}`}
-                  className="group flex h-full scroll-mt-28 flex-col overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1 hover:shadow-lift"
+                  className="group flex h-full scroll-mt-28 flex-col rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1 hover:shadow-lift"
                 >
-                  <div className="relative aspect-[4/5] overflow-hidden bg-canvas">
+                  <div className="relative aspect-[4/5] bg-canvas">
                     <Image
                       src={member.image}
                       alt={`${member.name}, ${member.role} at Planet Health Care`}

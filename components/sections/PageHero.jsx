@@ -101,14 +101,14 @@ export default function PageHero({
 
           {hasImage && (
             <Reveal variant="left" delay={0.08}>
-              <div className="relative aspect-[16/11] overflow-hidden rounded-panel border border-line bg-surface shadow-card">
+              <div className="relative aspect-[16/11] rounded-panel border border-line bg-surface shadow-card">
                 <Image
                   src={image}
                   alt={imageAlt}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 36vw"
-                  className="object-cover"
+                  className="h-full w-full object-contain object-center"
                 />
               </div>
             </Reveal>

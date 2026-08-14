@@ -28,7 +28,7 @@ export default function Figure({
   return (
     <figure
       className={cn(
-        'group relative isolate overflow-hidden border border-line bg-surface',
+        'group relative isolate border border-line bg-surface',
         rounded,
         ratio,
         className,
@@ -43,8 +43,8 @@ export default function Figure({
         loading={priority ? undefined : 'lazy'}
         sizes={sizes}
         className={cn(
-          'h-full w-full object-cover transition-transform duration-[900ms] ease-premium',
-          'group-hover:scale-[1.03]',
+          'h-full w-full object-contain object-center transition-transform duration-[900ms] ease-premium',
+          'group-hover:scale-[1.02]',
           imageClassName,
         )}
       />

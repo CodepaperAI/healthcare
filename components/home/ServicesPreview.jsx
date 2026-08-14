@@ -38,7 +38,7 @@ export default function ServicesPreview() {
             <RevealItem key={service.slug}>
               <Link
                 href={`/services/${service.slug}`}
-                className="group relative flex h-full flex-col overflow-hidden rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift"
+                className="group relative flex h-full flex-col rounded-card border border-line bg-elevated shadow-card transition-all duration-400 ease-premium hover:-translate-y-1.5 hover:border-brand-600/35 hover:shadow-lift"
               >
                 {/* Accent wash that surfaces on hover */}
                 <span
@@ -46,13 +46,13 @@ export default function ServicesPreview() {
                   className="pointer-events-none absolute -right-16 -top-16 z-10 h-40 w-40 rounded-full bg-brand-600/[0.07] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
                 />
 
-                <div className="relative aspect-[16/9] overflow-hidden bg-surface">
+                <div className="relative aspect-[16/9] bg-surface">
                   <Image
                     src={service.cardImage ?? service.image}
                     alt={service.cardImageAlt ?? service.imageAlt}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-[900ms] ease-premium group-hover:scale-[1.04]"
+                    className="object-contain object-center transition-transform duration-[900ms] ease-premium group-hover:scale-[1.02]"
                     style={{ objectPosition: service.cardImagePosition ?? 'center' }}
                   />
                   <span
