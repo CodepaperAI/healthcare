@@ -16,6 +16,19 @@ npm run dev        # http://localhost:3000
 
 Requires Node 18.18+ (Node 20+ recommended).
 
+### Uplift blog integration
+
+The `/blog` routes read published articles from Uplift on the server. Set the
+token in the deployment environment; do not add it to a client-exposed
+`NEXT_PUBLIC_*` variable or commit it to a file:
+
+```bash
+UPLIFT_API_TOKEN=your_token_here
+```
+
+The token that was shared during setup should be rotated before use, since it
+has been exposed in chat history.
+
 ```bash
 npm run build      # production build
 npm start          # serve the production build
@@ -37,6 +50,8 @@ npm run lint       # ESLint
 | `/services` | Services index |
 | `/services/[service]` | Seven service pages, generated from data |
 | `/products` | Medical compression, custom orthotics, bracing and recovery products |
+| `/blog` | Uplift-powered health and wellness articles |
+| `/blog/[slug]` | Individual Uplift blog article |
 | `/direct-billing` | Insurance direct billing |
 | `/special-programs` | MVA, IFHP, VAC, FAF |
 | `/careers` | Open roles |

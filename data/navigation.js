@@ -22,6 +22,7 @@ export const primaryNav = [
     })),
   },
   { label: 'Products', href: '/products' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Direct Billing', href: '/direct-billing' },
   { label: 'Special Programs', href: '/special-programs' },
   { label: 'Careers', href: '/careers' },
@@ -41,6 +42,7 @@ export const footerNav = [
     links: [
       { label: 'About', href: '/about' },
       { label: 'Products', href: '/products' },
+      { label: 'Blog', href: '/blog' },
       { label: 'Direct Billing', href: '/direct-billing' },
       { label: 'Special Programs', href: '/special-programs' },
       { label: 'Careers', href: '/careers' },

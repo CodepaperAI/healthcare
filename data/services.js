@@ -85,7 +85,7 @@ export const services = [
       },
       {
         q: 'Will you bill my insurance directly?',
-        a: 'Yes. We offer direct billing to many major insurers for physiotherapy, subject to your plan rules, limits and eligibility.',
+        a: 'Yes. We offer direct billing to many most insurers for physiotherapy, subject to your plan rules, limits and eligibility.',
       },
     ],
 

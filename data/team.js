@@ -87,7 +87,7 @@ export const featuredTeam = team.filter((member) => member.featured);
 export const principles = [
   {
     title: 'One roof, one plan',
-    body: 'Physio, chiro, massage, psychology and fitting share notes about your care — so your plan is coordinated, not contradicted.',
+    body: 'Physio, chiro, massage, psychology and fitting work under one roof — so your care can stay coordinated and practical.',
     icon: 'roof',
   },
   {

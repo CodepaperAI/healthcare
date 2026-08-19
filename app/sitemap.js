@@ -13,6 +13,7 @@ export default function sitemap() {
     { path: '/services', priority: 0.9, changeFrequency: 'monthly' },
     { path: '/about', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/products', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog', priority: 0.8, changeFrequency: 'weekly' },
     { path: '/direct-billing', priority: 0.7, changeFrequency: 'yearly' },
     { path: '/special-programs', priority: 0.7, changeFrequency: 'yearly' },
     { path: '/contact', priority: 0.8, changeFrequency: 'monthly' },

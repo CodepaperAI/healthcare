@@ -167,7 +167,7 @@ export default function Hero() {
                     Seven
                     <span className="ml-1 text-[0.8rem] font-bold text-muted">disciplines</span>
                   </p>
-                  <p className="mt-1 truncate text-[0.76rem] text-muted">One shared treatment plan</p>
+                  <p className="mt-1 truncate text-[0.76rem] text-muted">One t plan</p>
                 </div>
               </div>
               <div className="connector mt-3.5 h-px w-full" />

@@ -29,9 +29,6 @@ export default function WhyChooseUs() {
                 <Icon name="pin" className="h-3.5 w-3.5" />
                 Sherwood Forest Mall
               </p>
-              <p className="mt-2 text-[0.9rem] font-semibold leading-snug text-white">
-                Seven disciplines sharing one set of notes about your care.
-              </p>
             </div>
           </Reveal>
 

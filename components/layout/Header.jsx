@@ -56,7 +56,7 @@ export default function Header() {
             <div className="flex items-center gap-5">
               <span className="hidden items-center gap-1.5 text-white/80 xl:flex">
                 <Icon name="shield" className="h-3.5 w-3.5 text-teal-400" />
-                Direct billing to all major insurers
+                Direct billing to all most insurers
               </span>
               <a
                 href={site.phoneHref}

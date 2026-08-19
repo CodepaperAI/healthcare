@@ -139,6 +139,7 @@ const paths = {
     />
   ),
   arrowRight: <path d="M4.6 12h14.4m0 0-5.2-5.2m5.2 5.2-5.2 5.2" />,
+  arrowLeft: <path d="M19.4 12H5m0 0 5.2-5.2M5 12l5.2 5.2" />,
   arrowUpRight: <path d="M7.4 16.6 16.6 7.4m0 0H9.4m7.2 0v7.2" />,
   check: <path d="m4.8 12.6 4.6 4.6L19.2 7.4" />,
   plus: <path d="M12 5.4v13.2M5.4 12h13.2" />,
@@ -245,6 +246,12 @@ const paths = {
     </>
   ),
   heart: <path d="M12 20s-7.4-4.4-7.4-9.4A4.2 4.2 0 0 1 12 8.2a4.2 4.2 0 0 1 7.4 2.4c0 5-7.4 9.4-7.4 9.4Z" />,
+  book: (
+    <>
+      <path d="M4.4 5.2a2 2 0 0 1 2-2H12v16.6H6.4a2 2 0 0 0-2 2z" />
+      <path d="M19.6 5.2a2 2 0 0 0-2-2H12v16.6h5.6a2 2 0 0 1 2 2z" />
+    </>
+  ),
 };
 
 export default function Icon({ name, className = 'h-5 w-5', title, ...rest }) {
