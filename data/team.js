@@ -42,13 +42,6 @@ export const team = [
     bio: 'A Certified Pedorthist with 18+ years in custom orthotic and bracing care, passionate about reducing pain and improving mobility through expert biomechanical assessment.',
   },
   {
-    name: 'Roshel Jacob',
-    role: 'Registered Massage Therapist',
-    slug: 'roshel-jacob',
-    image: '/images/team-roshel-jacob.jpg',
-    bio: 'Therapeutic and relaxation care with specialized training in manual lymphatic drainage (Dr. Vodder Method), Thai massage and assisted stretching.',
-  },
-  {
     name: 'Divya Nambiar',
     role: 'Psychologist (C. Psych. Assoc.)',
     slug: 'divya-nambiar',
@@ -108,10 +101,10 @@ export const principles = [
  */
 export const clinicStats = [
   {
-    value: 10,
+    value: 9,
     suffix: '',
     label: 'Practitioners on staff',
-    note: 'Physio, chiro, RMT, psychology & fitting',
+    note: 'Physio, chiro, psychology & fitting',
   },
   {
     value: 7,

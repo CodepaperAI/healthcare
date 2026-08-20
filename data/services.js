@@ -3,7 +3,6 @@
  *
  * Every service page at /services/[service] is generated from this array —
  * no per-service components, no duplicated markup. Add an object here and a
- * fully formed, SEO-ready page appears with a sitemap entry, breadcrumbs,
  * FAQ schema and menu links.
  *
  * Required fields: slug, name, icon, accent, menuNote, summary, headline,
@@ -248,7 +247,7 @@ export const services = [
     ],
 
     practitioner: {
-      who: 'Roshel Jacob, Registered Massage Therapist.',
+      who: 'Registered Massage Therapist.',
       coverage:
         'RMT receipts are eligible under many extended health plans. We offer direct billing where your insurer allows, subject to your plan rules and limits.',
     },

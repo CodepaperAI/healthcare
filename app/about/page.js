@@ -20,7 +20,7 @@ const trail = [
 export const metadata = buildMetadata({
   title: 'About & Team',
   description:
-    'Meet the multidisciplinary team at Planet Health Care in North London, Ontario - physiotherapists, pelvic floor physiotherapy, chiropractors, pedorthists, an RMT and a psychologist.',
+    'Meet the multidisciplinary team at Planet Health Care in North London, Ontario - physiotherapists, pelvic floor physiotherapy, chiropractors, pedorthists and a psychologist.',
   path: '/about',
   keywords: [
     'Planet Health Care team',
@@ -36,7 +36,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Planet Health Care"
         title="The multidisciplinary clinic team in North London"
-        intro="Planet Health Care is a team of physiotherapists, pelvic floor physiotherapy, chiropractors, certified pedorthists, a registered massage therapist and a psychologist working together at Sherwood Forest Mall since 2020. We focus on restoring how you move - and because every discipline shares one roof, your practitioners share one plan."
+        intro="Planet Health Care is a team of physiotherapists, pelvic floor physiotherapy, chiropractors, certified pedorthists and a psychologist working together at Sherwood Forest Mall since 2020. Massage therapy is available as a separate clinic service. We focus on restoring how you move - and because every discipline shares one roof, your practitioners share one plan."
         trail={trail}
         bookLabel="Book an Appointment"
       />
@@ -78,7 +78,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="The practitioners"
             title="Meet the team"
-            description="Ten practitioners and support staff across physiotherapy, pelvic floor physiotherapy, chiropractic, pedorthics, massage therapy and psychology."
+            description="Nine practitioners and support staff across physiotherapy, pelvic floor physiotherapy, chiropractic, pedorthics and psychology. Massage therapy is available as a separate clinic service."
           />
 
           <Reveal stagger={0.06} className="mt-12 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
