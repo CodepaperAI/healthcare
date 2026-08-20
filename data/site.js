@@ -57,7 +57,7 @@ export const site = {
     { day: 'Wednesday', open: null, close: null, display: 'Closed' },
     { day: 'Thursday', open: '10:00', close: '18:00', display: '10 am – 6 pm' },
     { day: 'Friday', open: '10:00', close: '18:00', display: '10 am – 6 pm' },
-    { day: 'Saturday', open: null, close: null, display: 'Closed' },
+    { day: 'Saturday', open: '10:00', close: '14:00', display: '10 am – 2 pm' },
     { day: 'Sunday', open: null, close: null, display: 'Closed' },
   ],
 
